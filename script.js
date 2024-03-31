@@ -1,9 +1,3 @@
-function deroulerMenu(){
-    const menu = document.querySelector(".menu-liens");
-    const icon = document.querySelector(".menu-icon");
-    menu.classList.toggle("open");
-    icon.classList.toggle("open");
-}
 
 // Fonction pour envoyer l'e-mail
 function sendEmail(event) {

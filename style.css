@@ -80,15 +80,7 @@ a:hover{
 .logo:hover{
    cursor: default; 
 }
-/*menu déroulant*/
 
-#menu-déroulant{
-    display: none;
-}
-.nav-déroulant{
-    position: relative;
-    display: inline-block;
-}
 .menu-icon{
     display: flex;
     flex-direction: column;
@@ -241,7 +233,7 @@ section{
     .icon-text-link img {
       display: block;
       margin: 0 auto;
-      width: 50px; /* ajustez la taille selon vos besoins */
+      width: 50px; 
       height: auto;
     }
 
@@ -456,32 +448,32 @@ section{
   /* Styles pour les icônes */
   .fa-solid {
     margin-right: 10px;
-    vertical-align: middle; /* Alignement vertical des icônes */
+    vertical-align: middle; 
   }
 
     /* Styles pour le formulaire */
     form {
       margin-top: 20px;
-      display: inline-block; /* Affichage en ligne pour aligner horizontalement */
+      display: inline-block; 
     }
 
     form p {
-      margin-bottom: 10px; /* Espacement entre les paragraphes */
+      margin-bottom: 10px; 
     }
 
     input[type="text"],
     input[type="email"],
     textarea {
-      width: calc(100% - 22px); /* Largeur du formulaire ajustée pour tenir compte de la marge et de la bordure */
+      width: calc(100% - 22px);
       padding: 10px;
       margin-bottom: 10px;
       border: 1px solid #ccc;
       border-radius: 5px;
-      box-sizing: border-box; /* Garantit que le padding est inclus dans la largeur spécifiée */
+      box-sizing: border-box; 
     }
 
     textarea {
-      resize: vertical; /* Permet le redimensionnement vertical */
+      resize: vertical; 
     }
 
     button {
@@ -601,11 +593,11 @@ span.ic{
   width: 20px;
 }
 ::-webkit-scrollbar-track {
-  border: 3px solid #5e6472;
-  background-color: #082032;
+  border: 3px solid #deefe2;
+  background-color: #dbf3de;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, rgb(6, 222, 225), rgb(121, 255, 108));
+  background: linear-gradient(45deg, rgb(99, 158, 97), rgb(70, 118, 66));
 }
 
 
@@ -613,7 +605,7 @@ span.ic{
 
 
 ::-webkit-scrollbar-button:single-button {
-  background-color: #082032;
+  background-color: #093208;
   display: block;
   background-size: 10px;
   background-repeat: no-repeat;
